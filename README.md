@@ -1,4 +1,4 @@
-# peakcam-io
+# Peak Cam Resorts
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-peakcam-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://peakcam.io/
+Peak Cam Resorts provides real-time ski resort webcams, snow reports, and weather forecasts across 300+ resorts worldwide. The platform aggregates live camera feeds, snow depth, snowfall totals, and five‑day forecasts, offering a free, data‑forward dashboard for skiers and snowboarders to plan trips without needing multiple accounts or apps.
+
+**Areas:** Ski · Webcams · SnowReport · Weather · Outdoors
+
+## Peak Cam Resorts on APIs.io
+
+Everything profiled for Peak Cam Resorts is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/peakcam-io/](https://apis.io/providers/peakcam-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Peak Cam Resorts Ask API](https://apis.io/apis/peakcam-io/peakcam-io-ask-api/) — The deterministic answer endpoint.
+- [Peak Cam Resorts Batch API](https://apis.io/apis/peakcam-io/peakcam-io-batch-api/) — Several reads in one request.
+- [Peak Cam Resorts Cams API](https://apis.io/apis/peakcam-io/peakcam-io-cams-api/) — Webcams and stills.
+- [Peak Cam Resorts Forecast API](https://apis.io/apis/peakcam-io/peakcam-io-forecast-api/) — Blended multi-model snow forecast and its verification.
+- [Peak Cam Resorts History API](https://apis.io/apis/peakcam-io/peakcam-io-history-api/) — Season history, season-to-date stats and monthly climatology per resort.
+- [Peak Cam Resorts Leaderboards API](https://apis.io/apis/peakcam-io/peakcam-io-leaderboards-api/) — Season rankings: 7-day snow, powder days, deepest base, season snowfall.
+- [Peak Cam Resorts Powder API](https://apis.io/apis/peakcam-io/peakcam-io-powder-api/) — Ranked new-snow queries.
+- [Peak Cam Resorts Resorts API](https://apis.io/apis/peakcam-io/peakcam-io-resorts-api/) — Catalogue and per-resort conditions.
+- [Peak Cam Resorts Score API](https://apis.io/apis/peakcam-io/peakcam-io-score-api/) — The 0–100 Snow Score: components, history and the sortable snow-report table.
+- [Peak Cam Resorts Status API](https://apis.io/apis/peakcam-io/peakcam-io-status-api/) — Service health derived from the data.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Peak Cam Resorts Agentic Access](https://apis.io/agentic-access/peakcam-io/peakcam-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AskAnswer](https://apis.io/schemas/peakcam-io/peakcam-io-ask-answer/)
+- [Resort](https://apis.io/schemas/peakcam-io/peakcam-io-resort/)
+- [ResortConditions](https://apis.io/schemas/peakcam-io/peakcam-io-resort-conditions/)
+- [ResortScoreHistory](https://apis.io/schemas/peakcam-io/peakcam-io-resort-score-history/)
+- [Status](https://apis.io/schemas/peakcam-io/peakcam-io-status/)
+- [TimelapseList](https://apis.io/schemas/peakcam-io/peakcam-io-timelapse-list/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Peakcam Io Context](https://apis.io/jsonld/peakcam-io/peakcam-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Peak Cam Resorts API Rules](https://apis.io/rules/peakcam-io/peakcam-io-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Peak Cam Resorts Domain Security](https://apis.io/security/peakcam-io/peakcam-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.peakcam.io/)
+
+## API Evangelist rating
+
+**Kin Score 32.0** — thin · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 61.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 6.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 42.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 4.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/peakcam-io/](https://apis.io/providers/peakcam-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Peak Cam Resorts: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/peakcam-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
